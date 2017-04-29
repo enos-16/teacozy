@@ -5,9 +5,9 @@ body {
   font-size: 22px;
   color: seashell;
   background-color: black;
-  opacity: 0.9;
-  margin: 0;
   text-align: center;
+  opacity: 0.9;
+  margin: auto;
 }
 
 
@@ -25,7 +25,7 @@ header {
 }
 
 .hdr-img {
-  margin-left: 10px;
+  padding-left: 10px;
   height: 50px;
 }
 
@@ -50,8 +50,8 @@ nav span a {
 div.mission {
   display: flex;
   background-image: url(../images/img-mission-background.jpg);
-  width: 1200px;
   height: 700px;
+  width: 1200px;
   margin: auto;
   align-items: center;
   justify-content: center;
@@ -102,3 +102,40 @@ div.ftrd-teas {
 
 
 /*CSS for Location Section */
+
+div.lctn {
+  /*display: flex;*/
+  padding-top: 70px;
+  height: 500px;
+  width: 1200px;
+  background-image: url(../images/img-locations-background.jpg);
+  margin: auto;
+  align-items: center;
+}
+
+div.lctn-boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  opacity: 1;
+}
+
+.box {
+  width: 300px;
+  background-color: black;
+}
+
+.box h3, .box span {
+  display: block;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+
+/* CSS for Footer */
+
+.cprt {
+  display: block;
+  text-align: left;
+  padding-left: 20px;
+}
